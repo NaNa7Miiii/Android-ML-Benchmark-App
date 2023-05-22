@@ -42,5 +42,7 @@ This project aims to calculate the latency of transformer models in android devi
 | MobileOne_S4          | 224        | 79.4               | 14.838              | 2.979     | 11.81                      | https://github.com/apple/ml-mobileone                                                      |
 
 For the calculation of flops, parameters, and activations, I use the [fvcore](https://github.com/facebookresearch/fvcore/blob/main/docs/flop_count.md) library.
-The image dataset I use comes from this [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification), feel free to drag your own images to the folder flowers
+
+The image dataset I use comes from this [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification), feel free to drag your own images to the folder flowers.
+
 This App provides a default model for [Mobilevit-xxs](https://huggingface.co/apple/mobilevit-xx-small), and for the other models please follow this [onnxruntime tutorial](https://onnxruntime.ai/docs/get-started/) to convert them into onnx format.
